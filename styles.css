@@ -38,6 +38,7 @@ header {
     min-width: 320px; /*320px is the shortes width resolution of any mobile*/
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 
 header img {
@@ -47,10 +48,25 @@ header img {
     align-self: center;
 }
 
-.header--title-container {
+.header--tittle-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px; /*Usará un width siempre de 90% entre 288px & 900px*/ 
     height: 218px;
     margin-top: 40px;
+}
+
+.header--tittle-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--color-just-white);
+}
+
+.header--tittle-container p {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--color-soft-orange);
 }
