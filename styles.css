@@ -1,0 +1,56 @@
+/*
+1. Posicionamiento
+2. Box Model
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+:root {
+    --color-bitcoin-orange: #F7931A;
+    --color-soft-orange: #FFE9D5;
+    --color-secondary-blue: #1A9AF7;
+    --color-soft-blue: #E7F5FF;
+    --color-warm-black: #282623;
+    --color-black: #201e1c;
+    --color-grey: #bababa;
+    --color-off-white: #faf8f7;
+    --color-just-white: #fff;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 320px; /*320px is the shortes width resolution of any mobile*/
+    height: 334px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header--title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px; /*Usará un width siempre de 90% entre 288px & 900px*/ 
+    height: 218px;
+    margin-top: 40px;
+}
