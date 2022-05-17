@@ -149,17 +149,17 @@ main {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 300px;
+    height: auto;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
 }
 
-.main-currency-table .currency-table-tittle {
-    margin-bottom: 15px;
+.main-currency-table .currency-table--title {
     font-size: 1.85rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--color-bitcoin-orange);
+    margin-top: 10px;
 }
 
 .currency-table--container {
@@ -243,4 +243,12 @@ main {
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: var(--color-warm-black);
+}
+
+.main-currency-table .currency-table--title--blue {
+    color: var(--color-secondary-blue);
+}
+
+.currency-table--date--blue {
+    background-color: var(--color-soft-blue);
 }
