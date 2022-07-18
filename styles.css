@@ -366,3 +366,7 @@ main {
     line-height: 2.6rem;
     color: var(--color-just-white);
 }
+
+.main-plans-container {
+    height: 70vw;
+}
