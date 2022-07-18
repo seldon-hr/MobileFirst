@@ -347,3 +347,22 @@ main {
 .product-detail--card .success {
     background-image: url(./assets/icons/check-circle.svg);
 }
+
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/imgs/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  /* Para no repetir imagen si esta es muy pequeña.*/
+    text-align: center;
+}
+
+.bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--color-just-white);
+}
