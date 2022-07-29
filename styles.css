@@ -415,10 +415,10 @@ main {
     position: relative;
     scroll-snap-align: center; /*Dentro de un scroll permite posicionar mejor la tarjeta en medio.  */
     width: 70%;
-    min-height: 230px;
+    min-height: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 30px 0;
+    margin: 50px 5px 0;
     padding: 0 15px;
     background-color: var(--color-just-white);
     border-radius: 15px;
@@ -485,4 +485,35 @@ main {
     height: 20px;
     background-image: url(./assets/icons/orange-right-arrow.svg);
     vertical-align: text-bottom;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--color-bitcoin-orange);
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    list-style: none;
+    line-height: 1.8rem;
+}
+
+.left li {
+    margin: 10px 
+}
+
+.left a {
+    text-decoration: none;
+    color: var(--color-just-white)
 }
